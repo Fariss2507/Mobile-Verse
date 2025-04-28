@@ -1,0 +1,22 @@
+.navbar {
+    position: relative;
+  }
+  
+  .pay-now-btn {
+    position: absolute;
+    top: 60px; /* Increased to move the button further down */
+    right: 10px;
+    z-index: 10;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .pay-now-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
